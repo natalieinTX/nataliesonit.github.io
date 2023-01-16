@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript Hello World</title>
+</head>
+<body>
+    <button type="button" onclick="getName()
+    ">Click Me</button>
+    <script src="js/javascript-hello-world.js">
+    </script>
+    <script>
+        function getName() {
+            const userName = prompt('What is your name?');
+            sayHello(userName);
+        }
+        function sayHello(name) {
+            alert('Hello ' + name + '!');
+        }
+    </script>
+</body>
+</html>

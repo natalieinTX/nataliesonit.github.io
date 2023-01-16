@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Color Guessing Game</title>
+</head>
+<body>
+    <h1>Color Guessing Game</h1>
+    <button type="button" onclick="runGame()">Start Game</button>
+
+ <script>
+    const COLORS_ARRAY = ['blue','cyan','gold','gray','green','magenta','orange','red','white','yellow'];
+          COLORS_ARRAY[3]='gold';
+          COLORS_ARRAY.sort();
+    function runGame() {
+        let guess = '';
+        let correct = false;
+        let numTries = 0;
+        const targetIndex = Math.floor(Math.random() * COLORS_ARRAY.length );
+        const target = COLORS_ARRAY[targetIndex];
+    do {
+        guess = prompt('I am thinking of one of these colors:\n\n' +
+        COLORS_ARRAY.join(', ') +
+        '\n\nWhat color am I thinking of?\n');
+        numTries += 1;
+
+    if (!guess) { 
+        alert('The game has been aborted.');
+        return;
+    }
+        correct = checkGuess(guess.toLowerCase(), target, numTries);
+        } 
+            while (!correct);
+        document.body.style.background = guess;
+        alert('Congratulations! You have guessed the color in ' + numTries + 
+        'tries!\n\n' + 'Hit OK to see the color in the background.');
+    }
+function checkGuess(guess, target, numTries) {
+            alert(guess + " " + target)
+            const sorryMsg ='Sorry, your guess is incorrect.\n\n';
+            const tryMsg = 'n\nPlease try again.';
+            let correct = false;
+        if (!COLORS_ARRAY.includes(guess)) {
+        alert('Sorry, I don\'t recognize your color. ' + tryMsg + " tries: " + numTries);
+    } else if ( guess < target ) {
+        alert(sorryMsg +
+            'Hint: your color is alphabetically lower than mine.' + tryMsg + " tries: " +numTries);
+    }   else if ( guess > target ) {
+        alert(sorryMsg +
+        'Hint: your color is alphabetically higher than mine.' + tryMsg + " tries: " + numTries);
+        } else {
+    correct = true;
+    }
+    return correct;
+}
+        </script>
+    </body>
+</html>
