@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<html>
+<header>
+<h1 id="title">Music Survey</h1>
+</header>
+<body>
+<p id="description">A quick survey from Natalie Wheeler about your favorite type of music.</p>
+<form id="survey-form">
+<label for="name" id="label">Name:</label>
+<input id="name" type="text" name="name" placeholder="Music Fan" required></input>
+<br> 
+<label for="email" id="email">Email:</label>
+<input id="email" type="email" name="email" placeholder="buddyholly@weezer.com" required></input>
+<br>
+<label for="age" id="number">Age:</label>
+<br>
+<input id="number" type="number" name="number" min="18" max="120" placeholder="25" required</input>
+<br>
+<label for="dropdown" id="music genre" name="genre">Select genre</label>
+<select id="dropdown">
+  <option value="hip-hop">hip-hop</option>
+  <option value="pop">pop</option>
+   <option value="classical">classical</option>
+    <option value="opera">opera</option>
+  <option value="rock">rock</option>
+  <option value="R&B">R&B</option>
+  <option value="country">country</option>
+  <option value="folk">folk</option>
+  </select>
+  <br>
+  <br>
+  <label for="music_speed" id="music_speed" name="music_speed"><b>fast</b></label>
+  <input id="music_speed" type="radio" id="fast" name="music_speed" value="fast">
+  <label for="music_speed"></label>
+  <br>
+  <label for="music_speed" id="music_speed" name="music_speed"><b>medium</b></label>
+  <input id="music_speed" type="radio" id="medium" name="music_speed" value="medium">
+  <label for="music_speed"></label>
+  <br>
+  <label for="music_speed" id="music_speed" name="music_speed"><b>slow</b></label>
+  <input id="music_speed" type="radio" id="slow" name="music_speed" value="slow">
+  <label for="music_speed"></label>
+  <br>
+  <br>
+<label for="preferred-product-type"><b>Preferred Product Type</b></label>
+<br>
+<input id="checkbox" type="checkbox"  name="preferred-product-type" value="mp3">
+<label for="checkbox">mp3</label>
+<br>
+<input id="checkbox" type="checkbox"  name="preferred-product-type" value="Compact Disc">
+<label for="checkbox">Compact Disc</label>
+<br>
+<input id="checkbox" type="checkbox"  name="preferred-product-type" value="Vinyl">
+<label for="checkbox">Vinyl</label>
+<br>
+<br>
+<label id="textarea">Additional Comments:</label>
+<br>
+<textarea id="textarea" name="instructions" rows="5" cols="40"></textarea>
+<br>
+<input id="submit" type="submit" value="Submit Preferences">
+</form>
+</body>
+</html>
+
