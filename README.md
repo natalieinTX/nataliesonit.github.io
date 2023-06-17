@@ -6,7 +6,7 @@ A web developer living in the Austin, Texas area
 
 I am currently learning: 
 
-https://www.pngwing.com/en/free-png-ahozj
+![image](https://github.com/Nataliesonit/nataliesonit.github.io/assets/120809649/47bb4fb0-aacb-4bc3-84d2-c1a1a4804723)
 
 ⚡ Fun fact: I am from the Appalachian Mountains of eastern Kentucky :)
 
