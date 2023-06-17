@@ -15,5 +15,4 @@ https://www.linkedin.com/in/nataliedwheeler/
 
 Languages and Tools:
 
-HTML5, JS, React, Boostrap, CSS, Sass, 
-
+ReactJS | React Native | GitHub | CodePen | Prettier | Microsoft Visual Studio Code | Responsive Web Design | NodeJS | MongoDB | Mongoose | Postman | Expo | HTML | JavaScript | CSS | Sass | Bootstrap | 
