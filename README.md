@@ -6,7 +6,15 @@ A web developer living in the Austin, Texas area
 
 I am currently learning: 
 
-![image](https://github.com/Nataliesonit/nataliesonit.github.io/assets/120809649/47bb4fb0-aacb-4bc3-84d2-c1a1a4804723)
+<div class="canvas">
+  <div class="sheet">
+    <div class="python">
+      <div class="twin"></div>
+      <span></span>
+      <div class="eye"></div>
+    </div>
+  </div>
+</div>
 
 ⚡ Fun fact: I am from the Appalachian Mountains of eastern Kentucky :)
 
@@ -15,4 +23,4 @@ https://www.linkedin.com/in/nataliedwheeler/
 
 Languages and Tools:
 
-ReactJS | React Native | GitHub | CodePen | Prettier | Microsoft Visual Studio Code | Responsive Web Design | NodeJS | MongoDB | Mongoose | Postman | Expo | HTML | JavaScript | CSS | Sass | Bootstrap | 
+ReactJS | React Native | GitHub | CodePen | Prettier | Microsoft Visual Studio Code | Responsive Web Design | NodeJS | MongoDB | Mongoose | Postman | Expo | HTML | JavaScript | CSS | Sass | Bootstrap | Python
