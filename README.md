@@ -11,7 +11,7 @@ I am currently learning:
 ⚡ Fun fact: I am from the Appalachian Mountains of eastern Kentucky :)
 
 Connect with me:
-https://www.linkedin.com/in/nataliedwheeler/
+https://www.linkedin.com/in/nataliemuncy/
 
 Languages and Tools:
 
